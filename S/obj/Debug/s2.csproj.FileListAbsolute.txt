@@ -1,0 +1,126 @@
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.FormProcedura.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.FormReport.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.FormRequest.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.FormMenu.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.LoginForm1.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.MainForm1.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.WelcomeForm1.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\s2.csproj.GenerateResource.cache
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.exe
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.pdb
+C:\Users\Professional\Desktop\ss\S\bin\Debug\S.exe.config
+C:\Users\Professional\Desktop\ss\S\bin\Debug\S.exe
+C:\Users\Professional\Desktop\ss\S\bin\Debug\S.pdb
+C:\Users\Professional\Desktop\ss\S\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Professional\Desktop\ss\S\bin\Debug\ExcelDataReader.dll
+C:\Users\Professional\Desktop\ss\S\bin\Debug\ExcelDataReader.pdb
+C:\Users\Professional\Desktop\ss\S\bin\Debug\ExcelDataReader.xml
+C:\Users\Professional\Desktop\ss\S\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Professional\Desktop\ss\S\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Properties.Resources.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\s2.csproj.CoreCompileInputs.cache
+C:\Users\Professional\Desktop\ss\S\obj\Debug\s2.csproj.CopyComplete
+C:\Users\Professional\Desktop\ss\S\obj\Debug\s2.csproj.AssemblyReference.cache
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.ImportForm2.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.DisciplinyForm1.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Discipliny.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Dolzhnosti.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Dopustimye_vidy_nagruzki.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Gruppy.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Kafedry.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Nagruzka.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Normativ.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Prepodavateli.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Table_Vidy_uchebnoi_nagruzki.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Request_1.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Request_2.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Request_3.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Request_4.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Forms.Request_5.resources
+C:\Users\Professional\Desktop\ss\S\obj\Debug\S.Form_Registration.resources
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\S.exe.config
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\S.exe
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\S.pdb
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\ExcelDataReader.dll
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\ExcelDataReader.pdb
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\ExcelDataReader.xml
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Professional\Desktop\,\ss\S\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\s2.csproj.AssemblyReference.cache
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.DisciplinyForm1.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.FormProcedura.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.FormReport.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.FormRequest.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Request_1.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Request_2.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Request_3.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Request_4.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Request_5.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Discipliny.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.FormMenu.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Dolzhnosti.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Dopustimye_vidy_nagruzki.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Gruppy.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Kafedry.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Nagruzka.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Normativ.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Prepodavateli.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Forms.Table_Vidy_uchebnoi_nagruzki.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Form_Registration.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.ImportForm2.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.LoginForm1.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.MainForm1.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.Properties.Resources.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.WelcomeForm1.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\s2.csproj.GenerateResource.cache
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\s2.csproj.CoreCompileInputs.cache
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\s2.csproj.CopyComplete
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.exe
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.pdb
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.ImportForm1.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.ExportForm1.resources
+C:\Users\Professional\Desktop\,\ss\S\obj\Debug\S.BackupForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\S.exe.config
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\S.exe
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\S.pdb
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\ExcelDataReader.dll
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\ExcelDataReader.pdb
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\ExcelDataReader.xml
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\s2.csproj.AssemblyReference.cache
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.BackupForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.ExportForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.DisciplinyForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.FormProcedura.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.FormReport.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.FormRequest.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Request_1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Request_2.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Request_3.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Request_4.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Request_5.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Discipliny.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.FormMenu.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Dolzhnosti.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Dopustimye_vidy_nagruzki.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Gruppy.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Kafedry.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Nagruzka.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Normativ.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Prepodavateli.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Forms.Table_Vidy_uchebnoi_nagruzki.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Form_Registration.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.ImportForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.ImportForm2.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.LoginForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.MainForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.Properties.Resources.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.WelcomeForm1.resources
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\s2.csproj.GenerateResource.cache
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\s2.csproj.CoreCompileInputs.cache
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\s2.csproj.CopyComplete
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.exe
+C:\Users\Professional\Desktop\3 курс 2 семестр\,\ss\S\obj\Debug\S.pdb

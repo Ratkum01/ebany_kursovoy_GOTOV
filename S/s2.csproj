@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84D0F433-C5FF-4153-B6C0-274C166E5B28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>S</RootNamespace>
+    <AssemblyName>S</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackupForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackupForm1.Designer.cs">
+      <DependentUpon>BackupForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Connect.cs" />
+    <Compile Include="ExportForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportForm1.Designer.cs">
+      <DependentUpon>ExportForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DisciplinyForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DisciplinyForm1.Designer.cs">
+      <DependentUpon>DisciplinyForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProcedura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProcedura.Designer.cs">
+      <DependentUpon>FormProcedura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRequest.Designer.cs">
+      <DependentUpon>FormRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Request_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Request_1.Designer.cs">
+      <DependentUpon>Request_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Request_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Request_2.Designer.cs">
+      <DependentUpon>Request_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Request_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Request_3.Designer.cs">
+      <DependentUpon>Request_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Request_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Request_4.Designer.cs">
+      <DependentUpon>Request_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Request_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Request_5.Designer.cs">
+      <DependentUpon>Request_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Discipliny.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Discipliny.Designer.cs">
+      <DependentUpon>Table_Discipliny.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Dolzhnosti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Dolzhnosti.Designer.cs">
+      <DependentUpon>Table_Dolzhnosti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Dopustimye_vidy_nagruzki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Dopustimye_vidy_nagruzki.Designer.cs">
+      <DependentUpon>Table_Dopustimye_vidy_nagruzki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Gruppy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Gruppy.Designer.cs">
+      <DependentUpon>Table_Gruppy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Kafedry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Kafedry.Designer.cs">
+      <DependentUpon>Table_Kafedry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Nagruzka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Nagruzka.Designer.cs">
+      <DependentUpon>Table_Nagruzka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Normativ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Normativ.Designer.cs">
+      <DependentUpon>Table_Normativ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Prepodavateli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Prepodavateli.Designer.cs">
+      <DependentUpon>Table_Prepodavateli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Table_Vidy_uchebnoi_nagruzki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Table_Vidy_uchebnoi_nagruzki.Designer.cs">
+      <DependentUpon>Table_Vidy_uchebnoi_nagruzki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Registration.Designer.cs">
+      <DependentUpon>Form_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForm1.Designer.cs">
+      <DependentUpon>ImportForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForm2.Designer.cs">
+      <DependentUpon>ImportForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.cs">
+      <DependentUpon>LoginForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm1.Designer.cs">
+      <DependentUpon>MainForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uchebnaya_nagruzkaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>uchebnaya_nagruzkaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm1.Designer.cs">
+      <DependentUpon>WelcomeForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BackupForm1.resx">
+      <DependentUpon>BackupForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportForm1.resx">
+      <DependentUpon>ExportForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DisciplinyForm1.resx">
+      <DependentUpon>DisciplinyForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProcedura.resx">
+      <DependentUpon>FormProcedura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRequest.resx">
+      <DependentUpon>FormRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Request_1.resx">
+      <DependentUpon>Request_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Request_2.resx">
+      <DependentUpon>Request_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Request_3.resx">
+      <DependentUpon>Request_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Request_4.resx">
+      <DependentUpon>Request_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Request_5.resx">
+      <DependentUpon>Request_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Discipliny.resx">
+      <DependentUpon>Table_Discipliny.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Dolzhnosti.resx">
+      <DependentUpon>Table_Dolzhnosti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Dopustimye_vidy_nagruzki.resx">
+      <DependentUpon>Table_Dopustimye_vidy_nagruzki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Gruppy.resx">
+      <DependentUpon>Table_Gruppy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Kafedry.resx">
+      <DependentUpon>Table_Kafedry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Nagruzka.resx">
+      <DependentUpon>Table_Nagruzka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Normativ.resx">
+      <DependentUpon>Table_Normativ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Prepodavateli.resx">
+      <DependentUpon>Table_Prepodavateli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Table_Vidy_uchebnoi_nagruzki.resx">
+      <DependentUpon>Table_Vidy_uchebnoi_nagruzki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Registration.resx">
+      <DependentUpon>Form_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForm1.resx">
+      <DependentUpon>ImportForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForm2.resx">
+      <DependentUpon>ImportForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm1.resx">
+      <DependentUpon>MainForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WelcomeForm1.resx">
+      <DependentUpon>WelcomeForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="uchebnaya_nagruzkaDataSet.xsc">
+      <DependentUpon>uchebnaya_nagruzkaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="uchebnaya_nagruzkaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>uchebnaya_nagruzkaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="uchebnaya_nagruzkaDataSet.xss">
+      <DependentUpon>uchebnaya_nagruzkaDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\university.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\systemlogout_103399.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stage_dynamic_process_phase_procedure_coronavirus_contagion_pandemia_icon_141080 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_icon-icons.com_52387.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_report_16751.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_icon-icons.com_52383.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quote_request_icon_217006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_table_order_report_history_2332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_table_order_report_history_2332 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_table_order_report_history_2332 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1613390741_130-p-fon-dlya-shapki-bezhevii-151.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
